@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>次元仓-最好玩的二次元周边网站（cycang.com</title>
+    <link rel="icon" href="http://m.cycang.com/Public/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <router-view></router-view>	
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('deviceready', function(){
+        var styles = [
+          "./libs/swiper-3.3.1.min.css",
+          "./bundle.css"
+        ];
+        var scripts = [
+          "./libs/iscroll-probe.js",
+          "./libs/swiper-3.3.1.min.js",
+          "./bundle.js"
+        ];
+        for (var i = 0; i < scripts.length; i++) {
+          var script =  document.createElement('script');
+          script.src = scripts[i];
+          document.body.appendChild(script);
+        };
+        for (var i = 0; i < styles.length; i++) {
+          var link =  document.createElement('link');
+          link.href = styles[i];
+          link.rel = 'stylesheet';
+          document.getElementsByTagName('head')[0].appendChild(link);
+        }
+      }, false);
+      </script>
+</body>
+
+</html>

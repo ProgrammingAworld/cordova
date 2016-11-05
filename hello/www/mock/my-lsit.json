@@ -1,0 +1,30 @@
+{
+
+"data":  [
+    {
+      "id":0,
+      "name":"待付款",
+      "img":"/android_asset/www/images/need_pay2.png"
+    },
+    {
+      "id":1,
+      "name":"待发货",
+      "img":"/android_asset/www/images/need_deliver2.png"
+    },
+    {
+      "id":2,
+      "name":"待收货",
+      "img":"/android_asset/www/images/need_get2.png"
+    },
+    {
+      "id":3,
+      "name":"已完成",
+      "img":"/android_asset/www/images/has_complete.png"
+    },
+    {
+      "id":4,
+      "name":"退款/售后",
+      "img":"/android_asset/www/images/need_refund2.png"
+    }
+  ]
+}
